@@ -1,3 +1,3 @@
-class HauntedHouse < ActiveRecord::Base
+class HauntedHouse < ActiveRecord::Base[4.2]
 
-end   
+end
