@@ -1,4 +1,4 @@
-class HauntedHouse < ActiveRecord::Base
+class HauntedHouse < ActiveRecord::Base[4.2]
 
   def change
     create_table :haunted_houses do |h|
