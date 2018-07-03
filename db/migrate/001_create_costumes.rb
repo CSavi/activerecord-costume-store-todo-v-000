@@ -4,7 +4,8 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
     add_column :, :name, :string
     add_column :, :price, :integer
     add_column :, :image_url, :
-    add_column :, 
+    add_column :, :size, :integer
+    add_column :, :timestamps
   end
 
 end
