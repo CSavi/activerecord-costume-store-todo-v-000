@@ -9,7 +9,7 @@ class HauntedHouse < ActiveRecord::Base
       h.boolean :family_friendly
       h.datetime :opening_date
       h.datetime :closing_date
-      h.string :description
+      h.text :description
     end
   end
 end
