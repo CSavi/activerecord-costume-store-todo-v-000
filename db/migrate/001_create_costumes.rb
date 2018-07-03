@@ -1,7 +1,7 @@
 class CreateCostumes < ActiveRecord::Migration[4.2]
 
   def change
-    create_column
+    add_column :
   end
 
 end
